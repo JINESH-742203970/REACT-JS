@@ -1,10 +1,15 @@
 
-
+import Chai from "./chai"
 function App() {
  
 
-  return (
-   <h1>REACT-JS WITH VITE </h1>
+  return ( 
+    <>
+      <Chai/>
+      <h1>chai aur react</h1>
+      <p>Test para</p>
+    </>
+   
   )
 }
 
